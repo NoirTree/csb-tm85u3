@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scrolling Sections</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="graphic">
+        <div id="sections">
+          <section class="step">
+            <div class="title">Welcome!</div>
+            This is a scrollable explainer that shows the struggle of current
+            UBC CS graduate students.
+          </section>
+          <section class="step">
+            <div class="title">What makes up our expenses</div>
+            This section is reserved for treemap.
+          </section>
+          <section class="step">
+            <div class="title">Components of basic expenses</div>
+            This section is reserved for treemap after zoom in.
+          </section>
+          <section class="step">
+            <div class="title">Inflation Rate at British Columbia</div>
+            <p>
+              CPI is a common indicator of inflation rate. It is the ratio of
+              (current price/price of the base period).
+            </p>
+            <p>
+              As you can see, it seldom goes down over the last 6 years.
+              Recently the index almost skyrockets -- not a good sign.
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">12-month % change</div>
+            <p>
+              A more informative indicator is the change of CPI compared to last
+              year.
+            </p>
+            <p>
+              The problem is much more clear -- The growth rate increases
+              dramatically in 2022!
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">Components</div>
+            <p>
+              We can calculate CPI for different components, such as food and
+              hosuing.
+            </p>
+            <p>
+              Let's only focus on the last 1 year (Oct-21 to Sept-22). Seems
+              like the only thing that is more affordable is clothing. But we
+              don't buy clothes everyday, right?
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">Housing!</div>
+            <p>
+              Unfortunately, 🏠, the component that makes most of our basic
+              expenses, has one of the highest 12-month CPI over the last year.
+              8.26% means that if your rent is 1600$ last year, it will be
+              <b>1732$</b>
+              this year.
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">Food &amp;Transport</div>
+            <p>
+              The price of food also rises so much -- It means that if you buy a
+              <span>🥩</span> with 10$ last year, it will cost you 11$ this
+              year!
+            </p>
+            <p>
+              🚗 has the highest 12-month CPI. Though it does not take up a huge
+              amount of our basic expense, it means that
+              <b>you cannot choose to live too far away</b> -- and rent is
+              soaring!
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">OK. So what about the funding...</div>
+            The cost of living in vancouver is really scary. But a poor funding
+            can make things worse...
+          </section>
+          <section class="step">
+            <div class="title">Oh no!</div>
+            <p>
+              From our survey, the funding of
+              <span style="color: #db0b0b; font-weight: bold;">47.5%</span>
+              graduate students at UBC CS department cannot offset basic
+              expenses!
+            </p>
+            <p>Here, the funding means the sum of TA, RA, and awards.</p>
+          </section>
+          <section class="step">
+            <div class="title">With support...</div>
+            <p>
+              Some lucky ones get extra financial support, and some have
+              internship as additional source of income. All students that
+              <span style="color: #2fd3e9;">receive extra support</span> can
+              afford basic expenses. Good for them!
+            </p>
+            <p>
+              However, we notice that students that are
+              <span style="color: #e61717;"
+                >in urgent need for financial support</span
+              >
+              currently have no extra support available.
+            </p>
+            <p>
+              Also, even those with
+              <span style="color: #4bc533;">"always enough"</span> funding, they
+              are still very close to the boundary (y=x), which means that it is
+              impossible to have saving.
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">We're feeling unsafe!</div>
+            <p>
+              88.6% of the respondents are feeling unsafe in current grad
+              stipend amount. This is so concerning -- Even students that can
+              afford basic expenses with funding still feel unsafe!
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">How about you?</div>
+            <p>
+              This section is reserved for lollipop map.
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">Are others also in struggle?</div>
+            <p>
+              It will be a good excuse for UBC to ignore our struggle if
+              graduates in other unviersities are in the same trouble. But is
+              that the case?
+            </p>
+            <p>
+              Here, we summarize the <b>funding</b> for PhD students in
+              different unviersities. It seems that UBC is just in the middle.
+            </p>
+            <p>
+              (All currencies have been converted to canadian dollar.)
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">
+              What if we offset it with the cost of living...
+            </div>
+            <p>
+              Boom! After adding the <b>cost of living</b>, the problem arises!
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">What we left?</div>
+            <p>
+              If we reorder using the left money, the UBC really "stands out"...
+              in a negative way.
+            </p>
+          </section>
+          <section class="step">
+            <div class="title">Fight for it!</div>
+            <p>
+              We need your voice!
+            </p>
+          </section>
+        </div>
+        <div id="vis">
+          <div id="observable-embed-lollipop">
+            <div id="observablehq-viewof-food_health-f01904ae"></div>
+            <div id="observablehq-viewof-utilities_commute-f01904ae"></div>
+            <div id="observablehq-your_avg-f01904ae"></div>
+            <div id="observablehq-lollipop_dm-f01904ae"></div>
+
+            <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css"
+            />
+            <script type="module">
+              import {
+                Runtime,
+                Inspector
+              } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+              import define from "https://api.observablehq.com/d/e43198d9aa9f7758@555.js?v=3";
+              new Runtime().module(define, (name) => {
+                if (name === "viewof food_health")
+                  return new Inspector(
+                    document.querySelector(
+                      "#observablehq-viewof-food_health-f01904ae"
+                    )
+                  );
+                if (name === "viewof utilities_commute")
+                  return new Inspector(
+                    document.querySelector(
+                      "#observablehq-viewof-utilities_commute-f01904ae"
+                    )
+                  );
+                if (name === "your_avg")
+                  return new Inspector(
+                    document.querySelector("#observablehq-your_avg-f01904ae")
+                  );
+                if (name === "lollipop_dm")
+                  return new Inspector(
+                    document.querySelector("#observablehq-lollipop_dm-f01904ae")
+                  );
+                return ["avg_cost", "total_avg", "chart"].includes(name);
+              });
+            </script>
+          </div>
+        </div>
+        <div id="extra-space"></div>
+      </div>
+    </div>
+
+    <script src="lib/d3.js"></script>
+    <script src="js/scroller.js"></script>
+    <script src="js/sections.js"></script>
+  </body>
+</html>
